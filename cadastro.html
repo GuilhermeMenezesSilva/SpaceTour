@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="styled/cadastro.css">
+    <title>Cadastro</title>
+</head>
+    <body>
+
+        <header>
+            <h1>Cadastro SpaceTour</h1>
+        </header>
+
+        <section id="formulario">
+            <form>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input id="nome" name="nome" type="text">
+                    </div>
+
+                    <div>
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+
+                    <div>
+                        <label for="cpf">CPF:</label>
+                        <input type="cpf" name="cpf" id="cpf">
+                    </div>
+
+                    <div>
+                        <label for="genero">Gênero:</label>
+                        <select name="genero" id="genero">
+                            <option value="e">Escolha seu genero</option>
+                            <option value="m">Masculino</option>
+                            <option value="f">Feminino</option>
+                            <option value="o">Outros</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="dataNascimento">Data de nascimento:</label>
+                        <input type="date" name="dataNascimento" id="dataNascimento">
+                    </div>
+
+                    <div>
+                        <label for="motivacao">Qual a sua motivação para a viagem?</label>
+                        <input type="text" name="motivacao" id="motivacao">
+                    </div>
+
+                    <section class="botoes">
+                        <input type="button" id="enviar" value="Enviar">
+                        <input type="reset" value="apagar" id="limpar">  
+                    </section>
+            </form>
+        </section>
+
+    </body>
+</html>
