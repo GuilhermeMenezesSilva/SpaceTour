@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Lora&display=swap');
+
+body{
+    background-image: url(../img/planeta-terra-visto-do-espaco-1625856127096_v2_1x1.jpg);
+    background-size: 100%;
+    color: #fcfcfcb2;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#formulario{
+    color: #000000;
+    background-color: #e1e5f2a9;
+    font-size: 16px;
+    width: 400px;
+    padding: 40px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+div{
+    margin: 10px;
+    display: flex;
+   
+}
+
+form div input{
+    width: 300px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #3863b3ad;
+}
+
+form div input:focus{
+    border-bottom: 2px solid #3863b3ad;
+}
+
+#genero{
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Lora'
+}
+
+label{
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.botoes input{
+    padding: 10px;
+    background-color: #082c74fb;
+    color: #e1e5f2;
+    border-radius: 10px;
+    font-family: 'Lora';
+    font-size: 16px;
+    border: none;
+    transition: ease-in-out 1s;
+}
+
+.botoes input:hover{
+    color: #10002b;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px 2px #3863b3ad;
+}
