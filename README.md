@@ -8,6 +8,7 @@ As tecnologias utilizadas para a criação desta página são:
 
 - `HTML`
 - `CSS`
+- `JavaScript`
 
 ## Como visualizar
 
