@@ -15,5 +15,5 @@ Para visualizar a página, basta abrir o arquivo index.html em um navegador web.
 
 Link para a página: https://guilhermemenezessilva.github.io/SpaceTour/
 
-Licença
+## Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
